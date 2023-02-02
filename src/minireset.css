@@ -1,0 +1,78 @@
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+blockquote,
+body,
+dd,
+dl,
+dt,
+fieldset,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+html,
+iframe,
+legend,
+li,
+ol,
+p,
+pre,
+textarea,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: 400;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+:after,
+:before {
+  box-sizing: inherit;
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9yZXNldC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsMEVBQUE7QUFDQTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7RUF1QkUsU0FBQTtFQUNBLFVBQUE7QUFDRjs7QUFDQTs7Ozs7O0VBTUUsZUFBQTtFQUNBLGdCQUFBO0FBRUY7O0FBQUE7RUFDRSxnQkFBQTtBQUdGOztBQURBOzs7RUFHRSxTQUFBO0FBSUY7O0FBRkE7RUFDRSxzQkFBQTtBQUtGOztBQUhBOzs7RUFHRSxtQkFBQTtBQU1GOztBQUpBOztFQUVFLFlBQUE7RUFDQSxlQUFBO0FBT0Y7O0FBTEE7RUFDRSxTQUFBO0FBUUY7O0FBTkE7RUFDRSx5QkFBQTtFQUNBLGlCQUFBO0FBU0Y7O0FBUEE7O0VBRUUsVUFBQTtBQVVGIiwic291cmNlc0NvbnRlbnQiOlsiLyohIG1pbmlyZXNldC5jc3MgdjAuMC42IHwgTUlUIExpY2Vuc2UgfCBnaXRodWIuY29tL2pndGhtcy9taW5pcmVzZXQuY3NzICovXG5ibG9ja3F1b3RlLFxuYm9keSxcbmRkLFxuZGwsXG5kdCxcbmZpZWxkc2V0LFxuZmlndXJlLFxuaDEsXG5oMixcbmgzLFxuaDQsXG5oNSxcbmg2LFxuaHIsXG5odG1sLFxuaWZyYW1lLFxubGVnZW5kLFxubGksXG5vbCxcbnAsXG5wcmUsXG50ZXh0YXJlYSxcbnVsIHtcbiAgbWFyZ2luOiAwO1xuICBwYWRkaW5nOiAwO1xufVxuaDEsXG5oMixcbmgzLFxuaDQsXG5oNSxcbmg2IHtcbiAgZm9udC1zaXplOiAxMDAlO1xuICBmb250LXdlaWdodDogNDAwO1xufVxudWwge1xuICBsaXN0LXN0eWxlOiBub25lO1xufVxuYnV0dG9uLFxuaW5wdXQsXG5zZWxlY3Qge1xuICBtYXJnaW46IDA7XG59XG5odG1sIHtcbiAgYm94LXNpemluZzogYm9yZGVyLWJveDtcbn1cbiosXG46YWZ0ZXIsXG46YmVmb3JlIHtcbiAgYm94LXNpemluZzogaW5oZXJpdDtcbn1cbmltZyxcbnZpZGVvIHtcbiAgaGVpZ2h0OiBhdXRvO1xuICBtYXgtd2lkdGg6IDEwMCU7XG59XG5pZnJhbWUge1xuICBib3JkZXI6IDA7XG59XG50YWJsZSB7XG4gIGJvcmRlci1jb2xsYXBzZTogY29sbGFwc2U7XG4gIGJvcmRlci1zcGFjaW5nOiAwO1xufVxudGQsXG50aCB7XG4gIHBhZGRpbmc6IDA7XG59XG4iXSwic291cmNlUm9vdCI6IiJ9 */

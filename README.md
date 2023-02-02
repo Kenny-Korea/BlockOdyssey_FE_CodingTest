@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# 블록오디세이 프론트엔드 직무 코딩테스트
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+김광민*프론트엔드*원티드
 
-## Available Scripts
+### **요약**
 
-In the project directory, you can run:
+- 주어진 조건 모두 만족
+- url파라미터(URLSearchParams객체)를 사용하여, 새로고침 시에도 기존 조건들이 url에 남아 있도록 설계
+- window.history의 pushState 메소드를 사용하여, 부드러운 라우팅 구현
+-
 
-### `npm start`
+### **라이브러리**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- SASS(SCSS)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+### **List**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **It should be a search result list.**
 
-### `npm run build`
+  - 완료
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **After page refresh, the search result should persist.**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  - url 파라미터를 읽어와서 HTML select, input 태그에 value를 넣어주도록 구성
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **The column is in order of [상품번호, 상품명, 브랜드, 상품내용, 가격, 평점, 재고].**
 
-### `npm run eject`
+  - 완료
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Display the total amount of data at the top of the list.**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  - filtering 조건에 만족하는 data 배열의 length를 출력하도록 구성
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **The maximum length of [상품내용] is 40 characters. If it exceeds the maximum length, you should display the rest of the content using ellipsis ....**
+  - string 길이가 40을 초과하면 substring한 값을 출력하도록 restrictTextLength 함수 선언
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+### **Search**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Search conditions are the following : [전체, 상품명, 브랜드, 상품내용].**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  - 완료
 
-### Code Splitting
+- **Both search condition and keyword must be persisted after the refresh.**
+  - url 파라미터를 읽어와서 HTML select, input 태그에 value를 넣어주도록 구성
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+### **Pagination**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- **Implement rows per page using a select box. The select box should display [10, 20, 50] options.**
 
-### Making a Progressive Web App
+  - 완료
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Both rows per page and page number must be persisted after the refresh.**
+  - url 파라미터를 읽어와서 HTML select, input 태그에 value를 넣어주도록 구성
