@@ -46,7 +46,7 @@
 
 - **Search conditions are the following : [전체, 상품명, 브랜드, 상품내용].**
 
-  - 완료
+  - 대소문자 구별 없이 검색 가능하도록 구현
 
 - **Both search condition and keyword must be persisted after the refresh.**
   - url 파라미터를 읽어와서 HTML select, input 태그에 value를 넣어주도록 구성
