@@ -23,7 +23,7 @@
 
 - **After page refresh, the search result should persist.**
 
-  - url 파라미터를 읽어와서 HTML select, input 태그에 value를 넣어주도록 구성
+  - url 파라미터를 읽어와서 HTML 태그에 value를 넣어주도록 구성
 
 - **The column is in order of [상품번호, 상품명, 브랜드, 상품내용, 가격, 평점, 재고].**
 
@@ -56,4 +56,4 @@
   - 완료
 
 - **Both rows per page and page number must be persisted after the refresh.**
-  - url 파라미터를 읽어와서 HTML select, input 태그에 value를 넣어주도록 구성
+  - url 파라미터를 읽어와서 HTML 태그에 value를 넣어주도록 구성
