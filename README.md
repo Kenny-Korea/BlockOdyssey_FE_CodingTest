@@ -6,8 +6,8 @@
 
 - 주어진 조건 모두 만족
 - url파라미터(URLSearchParams객체)를 사용하여, 새로고침 시에도 기존 조건들이 url에 남아 있도록 설계
+- 초기에 fetch한 rawData를 조건에 맞게 필터링한 filteredData state를 리턴하는 방식으로 설계
 - window.history의 pushState 메소드를 사용하여, react-router-dom 없이 부드러운 라우팅 구현
-- 
 
 ### **라이브러리**
 
